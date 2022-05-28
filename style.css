@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ------------------------ Style Navigation bar ------------------------*/
+.nav {
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    margin: 15px;
+    position: relative;
+    right: 150px;
+}
+
+.nav-links {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    position: relative;
+    right: 130px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+a.active {
+    color: white;
+}
+
+.btn {
+    width: 110px;
+    height: 30px;
+    background-color: rgb(61, 156, 183);
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    position: relative;
+    left: 290px;
+    font-size: 18px;
+
+}
+
+/* ------------------------ Style Cards ------------------------*/
+.main-container {
+    margin-left: 230px;
+    margin-right: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    flex: 2;
+    margin: 20px;
+}
+
+.right-side {
+    flex: 1;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 3px solid rgb(179, 179, 179);
+    margin-bottom: 20px;
+    position: relative;
+    font-size: larger;
+}
+
+.card-body {
+    margin-top: 75px;
+}
+
+.main-header {
+    background-color: #2f9ab4;
+    height: 125px;
+}
+
+.profile-pic {
+    background-color: white;
+    height: 150px;
+    padding: 3px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(190, 190, 190);
+}
+
+.header-cards {
+    color: white;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(54, 54, 54);
+    height: 60px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.count {
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(187, 185, 185);
+    text-align: center;
+    color: black;
+    margin: 20px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-cards h3 {
+    margin: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 10px;
+}
+
+.icon {
+    height: 20px;
+}
+
+.user {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.personal-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.view {
+    display: flex;
+    border-top: 3px solid rgb(179, 179, 179);
+    padding: 10px;
+}
